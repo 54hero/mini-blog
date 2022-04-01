@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: blog
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3360/blog?useUnicode=true&characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
